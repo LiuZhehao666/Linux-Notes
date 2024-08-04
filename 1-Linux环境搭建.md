@@ -99,7 +99,7 @@
 
   ![image-20240804115238658](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115238658.png)
 
-- 进去后一定要 重置密码，密码尽量复杂
+- 进去后一定要重置密码，密码尽量复杂
 
   ![image-20240804115338312](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115338312.png)
 
