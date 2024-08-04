@@ -72,35 +72,60 @@
 
 4. 云服务器（最推荐）
 
-   云服务器是真正的开发和生产环境
+   云服务器是真正的开发和生产环境，常见的有阿里云，腾讯云，华为云以及百度云
 
+> 购买云服务器，以腾讯云为例
+>
 
+- 选择轻量应用服务器
 
+  ![image-20240804114539714](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114539714.png)
 
+- 进入到特惠
 
+  ![image-20240804114658853](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114658853.png)
 
+- 选择 2核2G 基本够用了，当然你也可以选择 2核4G 的
 
+  ![image-20240804114803756](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114803756.png)
 
+- 我购买的是 2核4G 的，进去后选择常见的 CentOS 或者 Ubuntu，由于 CentOS 停止维护，所以建议选择Ubuntu 22.04/20.04/24.04 LTS 即可。
 
+- 购买完成后，点击右上角 控制台
 
+  ![image-20240804115135060](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115135060.png)
 
+- 点击 轻量应用服务器、
 
+  ![image-20240804115238658](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115238658.png)
 
+- 进去后一定要 重置密码，密码尽量复杂
 
+  ![image-20240804115338312](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115338312.png)
 
+- 重置好密码后，点击确认即可
 
+  ![image-20240804115510654](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115510654.png)
 
+> 购买完成后，怎么样登录云服务器？
 
+1. 复制你的公网IP![image-20240804120223609](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804120223609.png)
 
+2. 下载 Xshell
 
+   ![image-20240804120729046](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804120729046.png)
 
+3. 安装完成后，登录云服务器，形式为ssh root@云服务器公网IP，然后回车，点击接受并保存
 
+   ![image-20240804121648267](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804121648267.png)
 
+4. 出现输入密码框，密码就是前面购买云服务器后重置的密码
 
+   ![image-20240804122152381](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804122152381.png)
 
+## 结语
 
-
-
+到此环境就搭建完成了，如果你们发现文中错误或者有更好的建议与想法，欢迎留言。
 
 
 
