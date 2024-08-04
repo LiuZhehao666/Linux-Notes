@@ -10,19 +10,19 @@
 
 [Linux官网](https://www.kernel.org/)
 
-![image-20240803160156616](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240803160156616.png)
+![image-20240804144623087](1-Linux环境搭建.assets/image-20240804144623087.png)
 
 点击 HTTP 后面的网址
 
-![image-20240803160309915](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240803160309915.png)
+![image-20240804144613041](1-Linux环境搭建.assets/image-20240804144613041.png)
 
 选择 Linux
 
-![image-20240803160334146](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240803160334146.png)
+![image-20240804144605027](1-Linux环境搭建.assets/image-20240804144605027.png)
 
 点击 kernel
 
-![image-20240803160552779](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240803160552779.png)
+![image-20240804144554036](1-Linux环境搭建.assets/image-20240804144554036.png)
 
 进去后发现很多版本
 
@@ -48,7 +48,7 @@
 
 2. 技术发行版：1.XXX或者2.XXX等等
 
-![image-20240803174758358](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240803174758358.png)
+![image-20240804144534987](1-Linux环境搭建.assets/image-20240804144534987.png)
 
 修正次数达到某个数字会向次版本号进 1，次版本号达到某个数字会向主版本号进 1。
 
@@ -79,49 +79,51 @@
 
 - 选择轻量应用服务器
 
-  ![image-20240804114539714](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114539714.png)
+  ![image-20240804144523072](1-Linux环境搭建.assets/image-20240804144523072.png)
 
 - 进入到特惠
 
-  ![image-20240804114658853](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114658853.png)
+  ![image-20240804144514202](1-Linux环境搭建.assets/image-20240804144514202.png)
 
 - 选择 2核2G 基本够用了，当然你也可以选择 2核4G 的
 
-  ![image-20240804114803756](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804114803756.png)
+  ![image-20240804144501443](1-Linux环境搭建.assets/image-20240804144501443.png)
 
 - 我购买的是 2核4G 的，进去后选择常见的 CentOS 或者 Ubuntu，由于 CentOS 停止维护，所以建议选择Ubuntu 22.04/20.04/24.04 LTS 即可。
 
 - 购买完成后，点击右上角 控制台
 
-  ![image-20240804115135060](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115135060.png)
+  ![image-20240804144451579](1-Linux环境搭建.assets/image-20240804144451579.png)
 
-- 点击 轻量应用服务器、
+- 点击 轻量应用服务器
 
-  ![image-20240804115238658](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115238658.png)
+  ![image-20240804144441366](1-Linux环境搭建.assets/image-20240804144441366.png)
 
-- 进去后一定要重置密码，密码尽量复杂
+- 进去后一定要 重置密码，密码尽量复杂
 
-  ![image-20240804115338312](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115338312.png)
+  ![image-20240804144431387](1-Linux环境搭建.assets/image-20240804144431387.png)
 
 - 重置好密码后，点击确认即可
 
-  ![image-20240804115510654](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804115510654.png)
+  ![image-20240804144419169](1-Linux环境搭建.assets/image-20240804144419169.png)
 
 > 购买完成后，怎么样登录云服务器？
 
-1. 复制你的公网IP![image-20240804120223609](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804120223609.png)
+1. 复制你的公网IP
 
-2. 下载 Xshell
+   ![image-20240804144402738](1-Linux环境搭建.assets/image-20240804144402738.png)
 
-   ![image-20240804120729046](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804120729046.png)
+2. 下载 Xshell，选择家庭学校免费版
+
+   ![image-20240804144346669](1-Linux环境搭建.assets/image-20240804144346669.png)
 
 3. 安装完成后，登录云服务器，形式为ssh root@云服务器公网IP，然后回车，点击接受并保存
 
-   ![image-20240804121648267](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804121648267.png)
+   ![image-20240804144321454](1-Linux环境搭建.assets/image-20240804144321454.png)
 
 4. 出现输入密码框，密码就是前面购买云服务器后重置的密码
 
-   ![image-20240804122152381](C:\Users\lzh_d\AppData\Roaming\Typora\typora-user-images\image-20240804122152381.png)
+   ![image-20240804144304832](1-Linux环境搭建.assets/image-20240804144304832.png)
 
 ## 结语
 
