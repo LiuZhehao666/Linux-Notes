@@ -8,19 +8,19 @@
 
 [Linux官网](https://www.kernel.org/)
 
-![image-20240804144623087](1-Linux环境搭建.assets/image-20240804144623087.png)
+![image-20240820202453882](1-Linux环境搭建.assets/image-20240820202453882.png)
 
 点击 HTTP 后面的网址
 
-![image-20240804144613041](1-Linux环境搭建.assets/image-20240804144613041.png)
+![image-20240820202523380](1-Linux环境搭建.assets/image-20240820202523380.png)
 
 选择 Linux
 
-![image-20240804144605027](1-Linux环境搭建.assets/image-20240804144605027.png)
+![image-20240820202542594](1-Linux环境搭建.assets/image-20240820202542594.png)
 
 点击 kernel
 
-![image-20240804144554036](1-Linux环境搭建.assets/image-20240804144554036.png)
+![image-20240820202608767](1-Linux环境搭建.assets/image-20240820202608767.png)
 
 进去后发现很多版本
 
